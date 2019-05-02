@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>J query</title>
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$("b1").readyfunction()
+{
+  $("p").click("slow",function()
+  {
+    $("p").slideshow();
+  });
+  $("#b2").click(function()
+  {
+    $("p").slidedown(3000).slidedown(3000);
+  });	
+});  
+</script>
+<p>welcome</p><br>
+<input type="button" id="b1" value="slide ">
+<input type="button" id="b2" value="slide">
+</body>
+</html>
+
+
